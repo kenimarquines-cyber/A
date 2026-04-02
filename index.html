@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>PlanClub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">🍸</div>
+  <h1>PLANCLUB</h1>
+
+  <input id="user" placeholder="Usuario">
+  
+  <div class="password-box">
+    <input id="pass" type="password" placeholder="Contraseña">
+    <span onclick="togglePass()">👁️</span>
+  </div>
+
+  <button onclick="login()">INICIAR SESIÓN</button>
+  <button onclick="register()">REGISTRARSE</button>
+</div>
+
+<div id="modal" class="modal"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
