@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>🍸</h2>
+
+  <button onclick="go('perfil')">Perfil</button>
+  <button onclick="go('reserva')">Reserva</button>
+  <button onclick="go('chat')">Chat</button>
+  <button onclick="go('catalogo')">Catálogo</button>
+  <button onclick="logout()">Cerrar sesión</button>
+</div>
+
+<script>
+function go(p){ alert("Ir a " + p); }
+
+function logout(){
+  alert("Gracias por usar PlanClub");
+  window.location="index.html";
+}
+</script>
+
+</body>
+</html>
